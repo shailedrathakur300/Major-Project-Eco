@@ -41,6 +41,8 @@ export default function PromotionalBanner() {
             <Image
               src="/gift/card.png"
               alt="Gift box with ribbon"
+              width={500}
+              height={500}
               className="object-contain w-full h-full"
             />
           </div>
@@ -63,7 +65,9 @@ export default function PromotionalBanner() {
             <Image
               src="/gift/family.png"
               alt="Canvas print example"
-              className="object-contain w-full h-full"
+              width={500}
+              height={500}
+              className="object-contain "
             />
           </div>
         </div>

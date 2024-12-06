@@ -13,7 +13,78 @@ interface Product {
 
 // Product data
 const productData: Product[] = [
-  // ...Product objects here...
+  {
+    id: 1,
+    title: 'Canvas Print',
+    price: 5000,
+    image: '/Canvas-Print.png',
+  },
+  {
+    id: 2,
+    title: 'Panoramic Canvas Printing',
+    price: 5000,
+    image: '/Panoramic-Canvas-Printing.png',
+  },
+  {
+    id: 3,
+    title: 'Sticker Label Print',
+    price: 5000,
+    image: '/sticker-label-printing.png',
+  },
+  {
+    id: 4,
+    title: 'Sun Board Print',
+    price: 5000,
+    image: '/Sun-Board-Print.png',
+  },
+  {
+    id: 5,
+    title: 'One-way vision',
+    price: 5000,
+    image: '/one-way-vision.png',
+  },
+  {
+    id: 6,
+    title: 'Backlit Vinyl Print',
+    price: 5000,
+    image: '/Backlit-Vinyl-Print.png',
+  },
+  {
+    id: 7,
+    title: 'Frosted Film Prints',
+    price: 5000,
+    image: '/Frosted-Film-Prints2.png',
+  },
+  {
+    id: 8,
+    title: 'Decal Prints',
+    price: 5000,
+    image: '/decal-prints.png',
+  },
+  {
+    id: 9,
+    title: 'Vinyl Print',
+    price: 5000,
+    image: '/Vinyl-Print.png',
+  },
+  {
+    id: 10,
+    title: 'Fabric Print',
+    price: 5000,
+    image: '/Fabric-Print.png',
+  },
+  {
+    id: 11,
+    title: 'Customized Wallpaper',
+    price: 5000,
+    image: '/Customized-Wallpaper.png',
+  },
+  {
+    id: 12,
+    title: 'Personalised Canvas Prints',
+    price: 5000,
+    image: '/Personalised-Canvas-Prints.png',
+  },
 ]
 
 export default function BestSelling() {

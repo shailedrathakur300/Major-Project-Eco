@@ -31,12 +31,12 @@ export default function ServiceArea() {
 
           <div className="space-y-2">
             <h3 className="font-semibold">Find Us on Google Map</h3>
-            <div className="aspect-video rounded-lg overflow-hidden bg-gray-100">
+            <div className="aspect-video rounded-lg overflow-hidden bg-gray-100 relative">
               <Image
                 src="/map/map.png"
                 alt="Map location"
-                layout="fill"
-                objectFit="cover"
+                fill
+                className="object-cover"
               />
             </div>
           </div>
