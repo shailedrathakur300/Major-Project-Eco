@@ -2,15 +2,15 @@ import Image from 'next/image'
 
 export default function ClientsAndFeatures() {
   const clients = [
-    { name: 'Legrand', logo: '/placeholder.svg?height=50&width=100' },
-    { name: 'Wipro', logo: '/placeholder.svg?height=50&width=100' },
-    { name: 'Harisons', logo: '/placeholder.svg?height=50&width=100' },
+    { name: 'Legrand', logo: '/mojor-client/legrand.png' },
+    { name: 'Wipro', logo: '/mojor-client/wipro.png' },
+    { name: 'Harisons', logo: '/mojor-client/harisons.png' },
     {
       name: 'Master Light House',
-      logo: '/placeholder.svg?height=50&width=100',
+      logo: '/mojor-client/master-light-house.png',
     },
-    { name: 'Mahindra EPC', logo: '/placeholder.svg?height=50&width=100' },
-    { name: 'Fillo', logo: '/placeholder.svg?height=50&width=100' },
+    { name: 'Mahindra EPC', logo: '/mojor-client/mahindra.png' },
+    { name: 'Fillo', logo: '/mojor-client/five.png' },
   ]
 
   const features = [

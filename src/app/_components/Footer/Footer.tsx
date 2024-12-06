@@ -1,15 +1,17 @@
-import FAQ from './FAQ'
+import ContactUs from './ContectUs'
+import FAQSection from './FAQ'
 import MajorClient from './MajorClient'
+import ServiceArea from './ServiceArea'
 import WhyChoose from './WhyChoose'
-import Component from './animate'
 
 function Footer() {
   return (
     <footer>
       <WhyChoose />
       <MajorClient />
-      <FAQ />
-      <Component />
+      <FAQSection />
+      <ServiceArea />
+      <ContactUs />
     </footer>
   )
 }

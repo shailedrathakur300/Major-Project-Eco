@@ -1,11 +1,3 @@
-import { Roboto } from 'next/font/google'
-
-const roboto = Roboto({
-  weight: ['400', '700'],
-  subsets: ['latin'],
-  display: 'swap',
-})
-
 const features = [
   {
     icon: '💰',
@@ -49,7 +41,7 @@ export default function WhyChoose() {
   return (
     <div>
       <div
-        className={`${roboto.className} w-full  h-[115px] bg-purple-100 bg-opacity-50 flex flex-col justify-center items-center p-4 border border-purple-200`}
+        className={`w-full  h-[115px] bg-purple-100 bg-opacity-50 flex flex-col justify-center items-center p-4 border border-purple-200`}
       >
         <h1 className="text-3xl md:text-4xl font-bold mb-2">
           Why Choose{' '}
@@ -66,7 +58,7 @@ export default function WhyChoose() {
         </p>
       </div>
       <div
-        className={`${roboto.className} grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6 bg-purple-50`}
+        className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6 bg-purple-50`}
       >
         {features.map((feature, index) => (
           <div

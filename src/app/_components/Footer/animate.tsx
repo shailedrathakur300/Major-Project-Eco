@@ -27,7 +27,7 @@ function AnimatedGrid() {
       delay: anime.stagger(100, {
         grid: [GRID_WIDTH, GRID_HEIGHT],
         from: parseInt(target.dataset.index || '0'),
-        direction: 'center',
+        direction: 'normal',
       }),
       easing: 'easeInOutQuad',
     })
@@ -164,7 +164,7 @@ export default function Component() {
           variant="outline"
           className="border-primary text-primary hover:bg-primary/20 hover:text-primary-foreground transition-colors duration-300"
         >
-          Let's Talk
+          Let&#39;s Talk
         </Button>
       </motion.div>
 
